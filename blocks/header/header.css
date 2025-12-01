@@ -2,7 +2,7 @@
 header .nav-wrapper {
   backdrop-filter: blur(5px);
   background: #fff;
-  height: 8.8rem;
+  height: 88px;
   /* padding: 0 55px; */
   -webkit-transition: background .15s ease-in-out;
   transition: background .15s ease-in-out;
@@ -32,6 +32,7 @@ header nav {
   width: 100%;
   display: flex;
   padding: 0;
+  gap: 0 32px;
 }
 
 /* header nav[aria-expanded='true'] {
