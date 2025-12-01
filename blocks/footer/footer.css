@@ -5,16 +5,39 @@ footer {
 
 footer .footer > div {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1330px;
   padding: 40px 24px 24px;
+  background-color: #FAFAFA;
+  border-top-left-radius: 8rem;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 80px;
+}
+
+footer .footer > div > div {
+  margin: 0 -55px;
 }
 
 footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
+/* @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
 }
+ */
+ 
+footer .columns > div > div {
+  font-size: 18px;
+}
+
+footer .columns > div > div p {
+  margin-bottom: 20px;
+}
+ 
+footer .columns > div > div:nth-child(2) {
+  font-size: 40px;
+  line-height: 44px;
+ }
