@@ -11,17 +11,16 @@
 }
 
 .hero > div:nth-child(2) {
-  margin-top: 8rem;
-    background-color: #fff;
-    position: absolute;
-    width: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-top-left-radius: 4rem;
+  margin-top: 17rem;
+  background-color: #fff;
+  width: 85%;
+  border-top-left-radius: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero > div:nth-child(2) > div {
-  padding: 5rem;
+  padding: 5rem 8rem;
 }
 
 .hero h1 {
