@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--light-color);
+  /* background-color: var(--light-color); */
   font-size: var(--body-font-size-xs);
 }
 
@@ -28,7 +28,11 @@ footer .footer p {
   }
 }
  */
- 
+
+ footer .columns > div {
+  align-items: baseline;
+}
+
 footer .columns > div > div {
   font-size: 18px;
 }
@@ -40,4 +44,9 @@ footer .columns > div > div p {
 footer .columns > div > div:nth-child(2) {
   font-size: 40px;
   line-height: 44px;
- }
+}
+
+footer .columns-container:nth-child(2) .default-content-wrapper {
+  text-align: right;
+  padding-right: 55px;
+}
